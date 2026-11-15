@@ -13,6 +13,19 @@ const BasicStyles = StyleSheet.create({
         justifyContent: 'space-between',
         marginBottom: 16,
     },
+    form: {
+        margin: 16,
+        paddingHorizontal: 24,
+        borderWidth: 2,
+        borderColor: "#FFFFFF",
+        borderRadius: 8
+    },
+    invalidUsername: {
+        color: "#FF0000"
+    },
+    validUsername: {
+        color: "#FFFFFF"
+    },
     button: {
         backgroundColor: "#32CD32",
         borderRadius: 8,

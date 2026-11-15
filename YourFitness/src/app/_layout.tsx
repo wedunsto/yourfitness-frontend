@@ -9,6 +9,7 @@ export default function RootLayout() {
         <Stack>
             <Stack.Screen name="index" options={{ title: "LandingPage", headerShown: false}} />
             <Stack.Screen name="user-exists" options={{ title: "User Exists", headerShown: false}} />
+            <Stack.Screen name="register" options={{ title: "Regiser", headerShown: false}} />
         </Stack>
     )
 }
